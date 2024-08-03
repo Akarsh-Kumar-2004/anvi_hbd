@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+<body>
+    <div class ="main">
+        <nav id=netflix_logo>
+            <span><img width = 150 src="./assets/images/logo.svg" alt="netflix logo"></span>
+            <div class="hero_but">
+                <button id = "nav_but1">
+                    English
+                </button>
+                <button id="nav_but2">
+                    Sign In
+                </button>
+            </div>
+        </nav>
+        <div class="box"></div>
+        <div id="top_content">
+            <div id="bold_content"> <b> HAPPY BIRTHDAY ANVITA !!!</b></div>
+            <span id="line1">To the most awesome girl in the world</span>
+            <span id="line2">Sending you all the love and happiness in the world.</span>
+            <div class =hero_but>
+                <input id = "email" class="email_input" type="text" placeholder="email address" readonly>
+                <button  class="get_started" id="confettiButton">
+                    Press Me  > 
+                </button>
+                <script>
+                    document.getElementById('confettiButton').addEventListener('click', function() {
+                      // Create a confetti effect
+                      confetti({
+                        particleCount: 100,
+                        spread: 70,
+                        origin: { y: 0.6 }
+                      });
+                  
+                      // Set a timer to stop the confetti after 3 seconds
+                      setTimeout(() => {
+                        confetti.reset();
+                      }, 5000);
+                    });
+                  </script>
+                  
+            </div>
+
+        </div>
+        <div class="spacer"></div>
+    </div>
+    <section class="section_1">
+        <div>
+            <div id="sec_1_bold">
+                Enjoy on your PC
+            </div>
+            <div class="sec_1_font">
+                Here's to you, Anvita! 
+            </div>
+            <div class="sec_1_font">
+                May your day be as incredible as you are. Happy Birthday!
+            </div>
+
+        </div>
+
+
+        <div id="sec_1_art">
+            <img id="sec_1_img" src="./assets/images/tv_1.png" alt="Tv image">
+            <video id="sec_1_vid" src="./assets/videos/video-tv-in-0819.m4v" autoplay loop muted ></video>
+
+        </div>
+    </section>
+    <div class="spacer"></div>
+
+
+
+
+    <section class="section_1 section_2">
+        <div id="sec_1_art">
+            <img id="sec_2_img" src="./assets/images/mobile_1.jpg" alt="Tv image">
+            <img id="anvi_3" src="./asset/IMG-20240803-WA0016.jpg" alt="anvi">
+
+        </div>
+
+        <div>
+            <div id="sec_1_bold">
+                Brightest star in universe
+            </div>
+            <div class="sec_1_font">
+                Happy Birthday to someone whose brilliance outshines 
+            </div>
+            <div class="sec_1_font">
+                even the galaxy and beyond!
+            </div>
+        </div>
+
+
+        
+    </section>
+    <div class="spacer"></div>
+
+
+
+
+    <section class="section_3">
+        <div>
+            <div id="sec_1_bold">
+                Delightful snapshots !!
+            </div>
+            <div class="sec_1_font">
+                Among all the smiles I've worn,
+            </div>
+            <div class="sec_1_font">
+                none compare to the genuine happiness I feel with you.
+            </div>
+
+        </div>
+
+
+        <div id="sec_1_art">
+            <img id="sec_3_img" src="./assets/images/tv_2.png" alt="Tv image">
+            <!-- <video id="sec_3_vid" src="./assets/videos/video-devices-in.m4v" autoplay loop muted ></video> -->
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img class="anvi_slide" src="./asset/Screenshot 2024-08-04 011057.png" alt="Image 1">
+                </div>
+                <div class="slide fade">
+                    <img class="anvi_slide" src="./asset/Screenshot 2024-08-04 011225.png" alt="Image 2">
+                </div>
+                <div class="slide fade">
+                    <img class="anvi_slide" src="./asset/Screenshot 2024-08-04 011248.png" alt="Image 3">
+                </div>
+                <div class="slide fade">
+                    <img class="anvi_slide" src="./asset/Screenshot 2024-08-04 011311.png" alt="Image 3">
+                </div>
+                <div class="slide fade">
+                    <img class="anvi_slide" src="./asset/Screenshot 2024-08-04 011334.png" alt="Image 3">
+                </div>
+                <div class="slide fade">
+                    <img class="anvi_slide" src="./asset/Screenshot 2024-08-04 011403.png" alt="Image 3">
+                </div>
+            </div>
+            <!-- <img id="anvi_4" src="./asset" alt="anvi"> -->
+            <img id="anvi_1" src="./asset/IMG-20240803-WA0014.jpg" alt="anvi">
+            <img id="anvi_2" src="./asset/IMG-20240803-WA0015.jpg" alt="anvi">
+            
+
+        </div>
+    </section>
+    <div class="spacer"></div>
+
+
+
+
+    <section class="section_1 section_4">
+        <div id="sec_1_art">
+            <img id="sec_4_img" src="./assets/images/kids.png" alt="Tv image">
+            <img id="anvi_5" src="./asset/Screenshot 2024-08-04 013429.png" alt="Tv image">
+
+        </div>
+
+        <div>
+            <div id="sec_1_bold">
+                Thanks for your caring support
+            </div>
+            <div class="sec_1_font">
+                Coz you are an angel to many, including me.
+            </div>
+            <div class="sec_1_font">
+            </div>
+            <div class="sec_1_font">
+            </div>
+        </div>
+
+
+
+    </section>
+    <div class="spacer"></div>
+    <section class="faq">
+        <div id="FAQ">
+            Anvita's amazing Traits !!!
+        </div>
+        <div id="ques">
+            <div class = "faq_plus">
+                A friend who stands by you through thick and thin.
+                <svg class="svg_plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class = "faq_plus">
+                <span>Always knows how to make everyone smile.</span>
+                <svg class=" svg_plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class = "faq_plus">
+                Quick thinker with a brilliant mind.
+                <svg class="svg_plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class = "faq_plus">
+                A therapist, offering wisdom and comfort to many, including me.
+                <svg class="svg_plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class = "faq_plus">
+                Full of innovative ideas and artistic flair.
+                <svg class="svg_plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class = "faq_plus">
+                Strong and unstoppable with an incredible physique
+                <svg class="svg_plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            
+        </div>
+        <div id="FAQ_WRITING">
+            Got you as a friend was indeed something I got from my good old deeds
+        </div>
+
+        <div class =hero_but id="faq_email_pad">
+            <input id = "email" class="email_input" type="text" placeholder="email address">
+            <button class="get_started" id="confettiButton">
+                Get Started  > 
+            </button>
+        </div>
+        
+        <div class="spacer"></div>
+    </section>
+    <div id="footer_number">
+        made with love <3
+
+    </div>
+    <section id="footer">
+
+        <div class="footer_col">
+            <a class="anchor_tags" href="https://help.netflix.com/support/412">FAQ</a>
+            <a class="anchor_tags" href="http://ir.netflix.com/">Investor Relations</a>
+            <a class="anchor_tags" href="https://help.netflix.com/legal/privacy">Privacy</a>
+            <a class="anchor_tags" href="https://fast.com/">Speed Test</a>
+        </div>
+        <div class="footer_col">
+            <a class="anchor_tags" href="https://help.netflix.com/">Help Centre</a>
+            <a class="anchor_tags" href="https://jobs.netflix.com/jobs">Jobs</a>
+            <a class="anchor_tags" href="https://www.netflix.com/in/#">Cookie Preferences</a>
+            <a class="anchor_tags" href="https://help.netflix.com/legal/notices">Legal Notices</a>
+
+        </div>
+        <div class="footer_col">
+            <a class="anchor_tags" href="https://www.netflix.com/youraccount">Account</a>
+            <a class="anchor_tags" href="https://www.netflix.com/watch">Ways to watch</a>
+            <a class="anchor_tags" href="https://help.netflix.com/legal/corpinfo">Corporate Information</a>
+            <a class="anchor_tags" href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a>
+        </div>
+        <div class="footer_col">
+            <a class="anchor_tags" href="https://media.netflix.com/">Media Centre</a>
+            <a class="anchor_tags" href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
+            <a class="anchor_tags" href="https://help.netflix.com/contactus">Contact Us</a>
+        </div>
+        
+    </section>
+    <div class="bottom_eng_but">
+        <button id = "nav_but1" >
+            English
+        </button>
+    </div>
+    
+    <div  class=" bottom_eng"id="netflix_bottom">
+        Netflix India
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
